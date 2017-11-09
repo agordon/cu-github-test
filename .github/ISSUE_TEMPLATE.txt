@@ -1,6 +1,7 @@
-# Reporting GNU Coreutils Issues
-
 Please **do not** send pull-requests or open new issues on Github.
+
+Github is a downstream mirror and is not frequently monitored,
+all development is coordinated upstream on GNU resources.
 
 * Send general questions or suggestions to: coreutils@gnu.org .
 * Send bugs reports to: bug-coreutils@gnu.org .
@@ -44,6 +45,9 @@ Before reporting a new bug, please check the following resources:
   If the problem happens on a very large input file, try to provide
   a minimal example (a subset of the input file) that still causes the problem.
   *Do not* include attachments over 40kB.
+* List policy is reply-to-all, and non-subscribers may post.
+* There may be a moderation delay for a first-time post, whether or not
+  you subscribe.
 
 
 ## Mailing List Etiquette

@@ -1,9 +1,8 @@
-# Contributing to GNU Coreutils
-
-GNU Coreutils welcomes contributions.
-
 Please *do not* send pull-requests or open new issues on Github.
 See "hacking resources" below for recommended alternatives.
+
+Github is a downstream mirror and is not frequently monitored,
+all development is coordinated upstream on GNU resources.
 
 * Send general questions or suggestions to: coreutils@gnu.org .
 * Send bugs reports to: <bug-coreutils@gnu.org>
@@ -53,6 +52,9 @@ When sending messages to coreutils@gnu.org or bug-coreutils@gnu.org :
   output, and other content resulting in messages over about 40 kB.
 * Avoid sending screenshots (e.g. PNG files). When reporting errors
   you encounter on the terminal, copy and paste the text to your message.
+* List policy is reply-to-all, and non-subscribers may post.
+* There may be a moderation delay for a first-time post, whether or not
+  you subscribe.
 
 
 ## Hacking resources
@@ -65,11 +67,9 @@ Please read them first.
 Before suggesting a new feature, read the list of rejected features requests:
  https://www.gnu.org/software/coreutils/rejected_requests.html
 
-*Do not* send pull-requests on github.
-Send a patch as an email attachment to coreutils@gnu.org (for new features)
-or bug-coreutils@gnu.org (for bug fixes).
-Patches can be generated with `git format-patch` (the HACKING links above provide
-examples of generating a patch).
+Send a patch as an email attachment. Patches can be generated with
+`git format-patch` (the HACKING links above provide examples of generating
+a patch).
 
 
 ## Copyright Assignment
