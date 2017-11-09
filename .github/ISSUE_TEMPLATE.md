@@ -1,0 +1,81 @@
+# Reporting GNU Coreutils Issues
+
+Please **do not** send pull-requests or open new issues on Github.
+
+* Send general questions or suggestions to the mailing list at:
+  <coreutils@gnu.org>.
+* Send bugs reports to: <bug-coreutils@gnu.org>.
+
+
+## Bug reports
+
+Before reporting a new bug, please check the following resources:
+
+* Questions and Answers for common problems:
+  [Coreutils FAQ](https://www.gnu.org/software/coreutils/faq/coreutils-faq.html)
+* [Coreutils Gotchas](https://www.pixelbeat.org/docs/coreutils-gotchas.html)
+  contains a list of some quirks and unexpected behaviour (which are often
+  mistaken for bugs).
+* Read the [Online Manual](https://www.gnu.org/software/coreutils/manual/html_node/index.html)
+* Search the archives for previous questions and answers:
+   * General usage and advice:
+	 [coreutils Mailing list](https://lists.gnu.org/archive/html/coreutils/)
+   * Bug reports:
+	 [bug-coreutils Mailing List](https://lists.gnu.org/archive/html/bug-coreutils/)
+* [Open Coreutils Bugs](https://debbugs.gnu.org/cgi/pkgreport.cgi?which=pkg&data=coreitils)
+
+
+## Effective bug reports
+
+* Include a descriptive subject line (e.g. the program with which
+  you experience a problem, and what the problem is).
+* Include the version of the program (e.g. the output of `PROG --version`).
+* Include the operating system and the type of hardware you are using
+  (e.g. the output of `uname -a`).
+* Include the exact command and parameters you have used.
+* Clearly explain what is the output you expected to get, and what is
+  the actual result you encountered.
+* Include as much information as possible to reproduce the problem.
+  If the problem happens on a very large input file, try to provide
+  a minimal example (a subset of the input file) that still causes the problem.
+  *Do not* include attachments over 40kB.
+
+
+## Mailing List Etiquette
+
+When sending messages to <coreutils@gnu.org> or <bug-coreutils@gnu.org>:
+
+* Send messages as plain text.
+* Do not send messages encoded as HTML nor encoded as base64 MIME nor
+  included as multiple formats.
+* Avoid sending large messages, such as log files, system call trace
+  output, and other content resulting in messages over about 40 kB.
+* Avoid sending screenshots (e.g. PNG files). When reporting errors
+  you encounter on the terminal, copy and paste the text to your message.
+
+
+
+## New features
+
+Read the [contribution guide](CONTRIBUTING.md) to learn more
+about contributing new features to GNU coreutils.
+
+
+
+
+<!--
+Copyright (C) 2017 Free Software Foundation, Inc.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
