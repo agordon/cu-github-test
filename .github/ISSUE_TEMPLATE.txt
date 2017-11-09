@@ -2,27 +2,32 @@
 
 Please **do not** send pull-requests or open new issues on Github.
 
-* Send general questions or suggestions to the mailing list at:
-  <coreutils@gnu.org>.
-* Send bugs reports to: <bug-coreutils@gnu.org>.
-
+* Send general questions or suggestions to: coreutils@gnu.org .
+* Send bugs reports to: bug-coreutils@gnu.org .
 
 ## Bug reports
 
 Before reporting a new bug, please check the following resources:
 
-* Questions and Answers for common problems:
-  [Coreutils FAQ](https://www.gnu.org/software/coreutils/faq/coreutils-faq.html)
-* [Coreutils Gotchas](https://www.pixelbeat.org/docs/coreutils-gotchas.html)
+* Coreutils FAQ: https://www.gnu.org/software/coreutils/faq/coreutils-faq.html
+
+* Coreutils Gotchas: https://www.pixelbeat.org/docs/coreutils-gotchas.html
   contains a list of some quirks and unexpected behaviour (which are often
   mistaken for bugs).
-* Read the [Online Manual](https://www.gnu.org/software/coreutils/manual/html_node/index.html)
+
+* Online Manual: https://www.gnu.org/software/coreutils/manual/html_node/index.html
+
 * Search the archives for previous questions and answers:
-   * General usage and advice:
-	 [coreutils Mailing list](https://lists.gnu.org/archive/html/coreutils/)
-   * Bug reports:
-	 [bug-coreutils Mailing List](https://lists.gnu.org/archive/html/bug-coreutils/)
-* [Open Coreutils Bugs](https://debbugs.gnu.org/cgi/pkgreport.cgi?which=pkg&data=coreitils)
+
+   * Coreutils Mailing list (General usage and advice):
+     https://lists.gnu.org/archive/html/coreutils/
+
+   * Bug reports Mailing List:
+     https://lists.gnu.org/archive/html/bug-coreutils/
+
+* Open Bugs: https://debbugs.gnu.org/cgi/pkgreport.cgi?which=pkg&data=coreitils
+
+* Translation related issues: https://translationproject.org/domain/coreutils.html
 
 
 ## Effective bug reports
@@ -43,7 +48,7 @@ Before reporting a new bug, please check the following resources:
 
 ## Mailing List Etiquette
 
-When sending messages to <coreutils@gnu.org> or <bug-coreutils@gnu.org>:
+When sending messages to coreutils@gnu.org or bug-coreutils@gnu.org :
 
 * Send messages as plain text.
 * Do not send messages encoded as HTML nor encoded as base64 MIME nor
@@ -52,14 +57,6 @@ When sending messages to <coreutils@gnu.org> or <bug-coreutils@gnu.org>:
   output, and other content resulting in messages over about 40 kB.
 * Avoid sending screenshots (e.g. PNG files). When reporting errors
   you encounter on the terminal, copy and paste the text to your message.
-
-
-
-## New features
-
-Read the [contribution guide](CONTRIBUTING.md) to learn more
-about contributing new features to GNU coreutils.
-
 
 
 
